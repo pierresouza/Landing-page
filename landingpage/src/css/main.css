@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:wght@300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background-color: #fcf4f4;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div#left-container {
+  width: 50%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 32px;
+}
+
+div#left-container p {
+  background-color: #f6485a;
+  border-radius: 30px;
+  padding: 40px 32px;
+  width: 70%;
+  color: white;
+  border: 2px solid red;
+}
+
+div#left-container p img {
+  width: 100%;
+}
+
+div#left-container div#first-text {
+  font-size: 50px;
+  font-weight: 500;
+  width: 100%;
+  padding: 24px;
+  font-family: "Kodchasan", sans-serif;
+  border: 2px solid red;
+}
+
+div#left-container div#second-text {
+  font-size: 20px;
+  width: 100%;
+  padding: 24px;
+  color: #f6485a;
+  font-family: "Kodchasan", sans-serif;
+  text-align: justify;
+}
+
+div#left-container div#buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div#left-container div#buttons button {
+  cursor: pointer;
+  width: 35%;
+  border: none;
+}
+
+div#left-container div#buttons button img {
+  width: 80%;
+  height: 100%;
+}
+
+#img-container {
+  height: 100%;
+  width: 100%;
+  background-image: url("../assests/Group 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+/*# sourceMappingURL=main.css.map */
