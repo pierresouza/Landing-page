@@ -15,22 +15,22 @@ body {
 }
 
 div#left-container {
-  width: 50%;
-  height: 100vh;
+  width: 60%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 32px;
+  padding: 48px;
 
   p {
     background-color: #f6485a;
     border-radius: 30px;
-    padding: 40px 32px;
+    padding: 16px;
     width: 70%;
     color: white;
-    border: 2px solid red;
 
     img {
-      width: 100%;
+      width: 400px;
+      height: 77px;
     }
   }
 
@@ -38,14 +38,13 @@ div#left-container {
     font-size: 50px;
     font-weight: 500;
     width: 100%;
-    padding: 24px;
+    padding: 16px;
     font-family: "Kodchasan", sans-serif;
-    border: 2px solid red;
   }
   div#second-text {
     font-size: 20px;
     width: 100%;
-    padding: 24px;
+    padding: 16px;
     color: #f6485a;
     font-family: "Kodchasan", sans-serif;
     text-align: justify;
@@ -53,11 +52,15 @@ div#left-container {
   div#buttons {
     width: 100%;
     display: flex;
+    padding: 16px;
 
     button {
       cursor: pointer;
       width: 35%;
       border: none;
+
+      display: flex;
+      align-items: flex-start;
       img {
         width: 80%;
         height: 100%;

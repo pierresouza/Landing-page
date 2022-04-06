@@ -17,8 +17,8 @@ body {
 }
 
 div#left-container {
-  width: 50%;
-  height: 100vh;
+  width: 60%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,35 +26,34 @@ div#left-container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 32px;
+  padding: 48px;
 }
 
 div#left-container p {
   background-color: #f6485a;
   border-radius: 30px;
-  padding: 40px 32px;
+  padding: 16px;
   width: 70%;
   color: white;
-  border: 2px solid red;
 }
 
 div#left-container p img {
-  width: 100%;
+  width: 400px;
+  height: 77px;
 }
 
 div#left-container div#first-text {
   font-size: 50px;
   font-weight: 500;
   width: 100%;
-  padding: 24px;
+  padding: 16px;
   font-family: "Kodchasan", sans-serif;
-  border: 2px solid red;
 }
 
 div#left-container div#second-text {
   font-size: 20px;
   width: 100%;
-  padding: 24px;
+  padding: 16px;
   color: #f6485a;
   font-family: "Kodchasan", sans-serif;
   text-align: justify;
@@ -65,12 +64,19 @@ div#left-container div#buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 16px;
 }
 
 div#left-container div#buttons button {
   cursor: pointer;
   width: 35%;
   border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 div#left-container div#buttons button img {
